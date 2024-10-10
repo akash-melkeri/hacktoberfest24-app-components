@@ -6,7 +6,7 @@
         <q-tab name="all" label="All"></q-tab>
         <q-tab name="buttons" label="Buttons"></q-tab>
         <q-tab name="inputs" label="Inputs"></q-tab>
-        <q-tab name="others" label="Inputs"></q-tab>
+        <q-tab name="others" label="Others"></q-tab>
       </q-tabs>
       <div>
         <q-btn-toggle
