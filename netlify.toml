@@ -1,0 +1,21 @@
+[build]
+  base = "/quasar-app/"
+  publish = "dist/spa"
+  command = "quasar build"
+
+[dev]
+  port = 8888
+  base = "/quasar-app/"
+  command = "quasar dev"
+  targetPort = 9091
+  publish = "dist"
+
+[[redirects]]
+  from = '/api/*'
+  to = '/.netlify/functions/:splat'
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
