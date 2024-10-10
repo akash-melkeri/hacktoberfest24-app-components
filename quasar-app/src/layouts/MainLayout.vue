@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header bordered class="tw-bg-transparent">
+    <q-header bordered class="tw-bg-transparent tw-backdrop-blur-lg">
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>

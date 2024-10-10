@@ -33,7 +33,7 @@
         </q-btn-toggle>
       </div>
     </div>
-    <div class="container tw-grid tw-gap-4 tw-mt-4" :class="`${grid_map[view]}`">
+    <div class="container tw-grid tw-gap-4 tw-mt-4 tw-pb-4" :class="`${grid_map[view]}`">
       <div class="tw-aspect-video tw-bg-white tw-rounded-lg tw-overflow-hidden" :class="`${container_classes[componentName]}`" v-for="componentName in Object.keys(components_list)" :key="componentName">
         <component :is="components[componentName]" ></component>
       </div>
