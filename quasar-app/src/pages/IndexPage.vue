@@ -62,7 +62,7 @@ export default defineComponent({
         'ButtonThree': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
         'ButtonFour': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
         'ButtonFive': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
-
+        'ButtonSix': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
       }
     }
   },
