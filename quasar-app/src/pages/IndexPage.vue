@@ -59,6 +59,10 @@ export default defineComponent({
       container_classes: {
         'ButtonOne': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
         'ButtonTwo': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
+        'ButtonThree': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
+        'ButtonFour': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
+        'ButtonFive': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
+        'ButtonSix': 'tw-bg-white tw-flex tw-flex-col tw-items-center tw-justify-center',
       }
     }
   },
